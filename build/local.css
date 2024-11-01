@@ -1,0 +1,28 @@
+.wp-block-talkify-tts-button button {
+    color: white;
+    background: #8ac832;
+    border: none;
+    padding: 10px;
+    font-size: 0.9em;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+    .wp-block-talkify-tts-button button:focus ~ .talkify-local-preview-placeholder {
+        width: 100px;
+        height: 40px;
+        border: 2px dashed #8ac832;
+        display: inline-block;
+        vertical-align: middle;
+        background-color: #8ac83238;
+    }
+
+    .wp-block-talkify-tts-button button:focus ~ .talkify-bottom-preview-placeholder {
+        width: 100%;
+        height: 40px;
+        border: 2px dashed #8ac832;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #8ac83238;
+    }
